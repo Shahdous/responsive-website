@@ -1,0 +1,1041 @@
+.inter-normal {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+}
+
+body {
+    color: white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.special-font {
+    font-family: "Playwrite CU", cursive;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: italic;
+    font-size: 1.2em;
+    letter-spacing: 0.05em;
+}
+
+.hamburger-menu {
+    display: none;
+}
+
+.display-flex {
+    display: flex;
+}
+
+.color-primary {
+    color: #E6533C;
+}
+
+.text-primary {
+    color: white;
+}
+
+.text-secondary {
+    color: rgba(255, 255, 255, 0.50);
+}
+
+.btn-primary {
+    background-color: #E6533C;
+    color: white;
+    border: none;
+}
+
+
+.btn-primary:hover {
+    background-color: #d04531;
+}
+
+.btn-secondary {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white; 
+}
+
+.btn-primary,
+.btn-secondary {
+    display: inline-block;
+    font-size: 1rem; 
+    font-weight: 600;
+    text-align: center;
+    padding: 10px 45px;
+    border-radius: 30px;
+    min-width: 140px;
+    height: 45px;
+    line-height: 1.2;
+}
+
+.background-primary {
+    background-color: black;
+    overflow: auto;
+}
+
+.background-secondary {
+    background-color: #E6533C;
+    border-radius: 46px;
+    padding: 5px 15px;
+}
+
+.background-tertiary{
+    background-color: rgba(34, 34, 34, 2.00);
+}
+
+.border {
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.20);
+    border-radius: 46px;
+    border-width: 1px;
+    padding: 0;
+    margin: 0;
+}
+
+/* navbar related styles */
+.links-between {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0.43rem;
+    margin-left: 0.125rem;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav li a {
+    text-decoration: none;
+    color: white;
+}
+
+.brand {
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.navbar {
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.nav-item {
+    list-style: none;
+    margin-right: 40px;
+}
+
+.nav-item4 {
+    margin-right: 20px;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.navbar, .banner, .habits{
+    max-width: 1080px;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+/* header related */
+.header-background {
+    background-image: linear-gradient(to bottom, black, rgb(22, 22, 22) 50%, black);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* Banner related */
+.banner-writing{
+    text-align: left;
+    max-width: 80%;
+}
+
+.banner-content {
+    max-width: 500px;
+    text-align: left;
+}
+
+.banner-title {
+    font-weight: 850;
+    font-size: 4rem;
+}
+
+.text-light-grey{
+    color: rgba(255, 255, 255, 0.50);
+    font-weight: 200;
+}
+
+#unique-word {
+    font-weight: 100;
+}
+
+/* Added CSS for banner-image-container to position the overlays */
+.banner-image-container {
+    position: relative;
+    overflow: hidden;
+}
+
+/* Ensures the image displays correctly */
+.banner-image {
+    width: 100%;
+    height: auto;
+}
+
+/* Base styling for overlay elements */
+.overlay {
+    position: absolute;
+    color: white;
+    padding: 15px 30px;
+    align-items: center;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.10);
+    text-align: left;
+    width: auto;
+}
+
+/* Positioning for the left overlay */
+.overlay-left {
+    top: 30%;
+    left: 72%;
+    background: rgba(255, 255, 255, 0.10);
+}
+
+/* Positioning for the right overlay */
+.overlay-right {
+    bottom: 30%;
+    right: 35%;
+    background: rgba(255, 255, 255, 0.10);
+    backdrop-filter: blur(10px);
+}
+
+.overlay-left,
+.overlay-right {
+    position: absolute;
+
+}
+
+/* Styling for overlay headings */
+.overlay h4 {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+/* Styling for overlay paragraphs */
+.overlay p {
+    margin: 5px 0 0;
+    font-size: 1rem;
+}
+
+.circle {
+    width: 40px;
+    height: 40px;
+    background-color: #E6533C;
+    border-radius: 50%;
+    margin-right: 10px; /* Space between circle and text */
+}
+
+/* HABITS SECTION */
+.section-title{
+    display: flex;
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.section-description{
+    display: flex;
+    justify-content: center;
+}
+.habit-heading{
+    justify-content: center;
+}
+
+.habits{
+    justify-content: center;
+    padding-top: 1rem;
+}
+.habits-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    margin-top: 2rem;
+    max-width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.habit-item {
+    text-align: center;
+    width: 100%;
+    flex: 1;
+    padding-top: 1rem;
+    padding-bottom: 8em;
+}
+
+.image-container {
+    width: 100%;
+    padding-top: 100%;
+    position: relative;
+    overflow: hidden;
+    border-radius: 0%;
+    margin-bottom: 1rem;
+}
+
+.circular-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.habit-item h3 {
+    margin: 0.5rem 0 0;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.habit-item h4 {
+    margin: 0.5rem 0 0;
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.4);
+    font-weight: 400;
+    padding-left: .5rem;
+    padding-right: 0.5rem;
+}
+
+
+/* EXTRA MILE */
+
+.run {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1080px;
+    margin: 0 auto;
+    background-color: rgba(34, 34, 34, 1.00);
+    border-radius: 18px;
+    padding: 1.5rem;
+}
+.run-left-section {
+    max-width: 50%;
+    padding-right: 2rem;
+    order: 1;
+}
+
+.run-img-container {
+    max-width: 0%;
+    order: 2;
+}
+
+
+.extra-mile{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem;
+}
+
+.run-img{
+    border-radius: 18px;
+    width: 650px;
+    height: 350px;
+    transform: scale(2.3) translate(-145px, 40px);
+}
+
+.run-img-container{
+    max-width: 700px;
+    border-radius: 18px;
+    max-height: auto;
+    overflow: hidden;
+}
+
+.run-btn-primary{
+    background-color: #E6533C;
+    color: white;
+    font-size: 1.125rem;
+    font-weight: 100;
+    border-radius: 46px;
+    padding: 15px 60px;
+    border: transparent;
+}
+
+/* BMI */
+
+.bmi-section {
+    background-color: rgba(34, 34, 34, 1.00);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 0;
+    max-width: 100%;
+}
+
+.bmi-calc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.bmi-calculator {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 3rem;
+    background-color: #222;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 500px;
+}
+
+.bmi-chart, .calculate-your-bmi {
+    padding-right: 1rem;
+    flex: 1;
+}
+
+.bmi-chart {
+    margin-right: 5rem;
+}
+
+.grid-container {
+    display: grid;
+}
+
+.bmi-table {
+    width: 80%;
+    border-collapse: collapse;
+}
+
+.bmi-table th, .bmi-table td {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    text-align: left;
+    padding: 1rem;
+    padding-right: 1rem;
+}
+
+.calculate-your-bmi h2 {
+    margin-top: 0;
+    font-size: 2rem;
+}
+
+
+.calculate-your-bmi p {
+    margin-bottom: 2rem;
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: 300;
+}
+
+
+.bmi-background.display-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+
+/* <!-- BMI Calculator Form --> */
+
+
+.bmi-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    max-width: 100%;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+
+.bmi-calculator, .bmi-chart {
+    max-width: 100%;
+    box-sizing: border-box;
+    flex: 1;
+}
+.bmi-chart {
+    align-self: flex-start;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.bmi-form .form-group:nth-child(5),
+.bmi-form button {
+    grid-column: span 2;
+    width: 100%;
+}
+
+.form-group label {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+
+.form-group input,
+.form-group select {
+    padding: .75rem;
+    font-size: 1rem;
+    background-color: rgb(57, 57, 57);
+    border: 1px solid rgba(57, 57, 57);
+    color: rgba(255, 255, 255, 0.50);
+    border-radius: 8px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.dropdown-content{
+    position: absolute;
+    padding: 10rem;
+}
+
+.calculate-your-bmi {
+    max-width: 500px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.bmi-button {
+    background-color: #E6533C;
+    color: white;
+    font-size: 1.125rem;
+    font-weight: 100;
+    border-radius: 46px;
+    padding: 15px 40px;
+    border: none;
+    width: 100%;
+    max-width: 270px; 
+}
+
+/* QUIZZ */
+.fitness-quiz {
+    padding: 4rem 1rem;
+    text-align: center;
+}
+
+.quiz-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: rgba(34, 34, 34, 1.00);
+    padding: 2rem;
+    border-radius: 12px;
+}
+
+.quiz-title {
+    font-size: 2.5rem;
+}
+
+.quiz-description {
+    margin-bottom: 2rem;
+    font-size: 1.125rem;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.quiz-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.form-group {
+    text-align: left;
+    position: relative;
+    transform: none;
+}
+
+.form-group label {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: .5rem;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+select {
+    position: static;
+}
+
+.form-group select {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 1rem;
+    background-color: rgb(57, 57, 57);
+    border: 1px solid rgba(57, 57, 57, 0.5);
+    color: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+}
+
+.quiz-button {
+    background-color: #E6533C;
+    color: white;
+    font-size: 1.125rem;
+    font-weight: 600;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 46px;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+
+.quiz-button:hover {
+    background-color: #d04531;
+}
+
+/* OUR TEAM */
+.meet-our-team-title{
+    justify-content: center;
+}
+
+/* OUR TEAM SECTION */
+.our-team {
+    padding: 3rem 1rem;
+    text-align: center;
+}
+
+.trainers {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    max-width: 1080px;
+    background-color: rgb(57,57,57);
+    padding: 3rem 1rem;
+    border-radius: 18px;
+    margin: 2rem auto 0;
+}
+
+.trainer-card {
+    background-color: rgba(34, 34, 34, 1.00);
+    border-radius: 18px;
+    overflow: hidden;
+    position: relative;
+    height: 272px;
+    transition: transform 0.3s ease;
+    display: flex;
+}
+.trainer-card:hover {
+    transform: scale(1.05);
+}
+
+.trainer-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+    flex-grow: 1;
+}
+
+.trainer-info {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 1rem;
+    text-align: left;
+}
+
+.trainer-name {
+    font-size: 1.25rem;
+    margin: 0;
+    color: white;
+}
+
+.trainer-role {
+    font-size: 1rem;
+    margin: 0.25rem 0 0;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/* Footer */
+.footer {
+    background-color: rgba(34, 34, 34, 1.00);
+    padding: 3rem 0;
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.footer-logo-section {
+    flex: 2;
+    text-align: left;
+    margin-right: 2rem;
+}
+
+.footer-logo-section .brand-footer {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.footer-links-section {
+    flex: 1;
+    text-align: left;
+}
+
+.footer-heading {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links li {
+    margin-bottom: 0.5rem;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #E6533C;
+}
+
+.footer-bottom {
+    margin-top: 2rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding-top: 1rem;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+
+/* responsive media query */
+@media screen and (max-width: 576px) {
+    
+    .nav-link {
+        display: none;
+    }
+
+    /* Hamburger icon styling */
+    .hamburger-menu-container{
+        padding-top: 2rem;
+    }
+
+    .hamburger-menu {
+        display: block;
+        cursor: pointer;
+    }
+
+    .hamburger-menu span {
+        display: flex;
+        width: 30px;
+        height: 3px;
+        background-color: white;
+        margin: 5px 0;
+        transition: 0.4s;
+    }
+
+    .border {
+        border-color: black;
+    }
+    .navbar {
+        align-items: flex-start;
+        padding: 1rem;
+    }
+
+    .navbar .brand {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .navbar .links-between {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .banner{
+        flex-direction: column;
+    }
+
+    .banner-content {
+        max-width: 100%;
+        text-align: center;
+        padding: 0 1rem;
+    }
+
+    .banner-btns {
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+        width: 100%;
+    }
+    
+    .btn-primary,
+    .btn-secondary {
+        width: 48%;
+        padding: 10px 5px;
+        font-size: 1rem;
+        min-width: 0;
+    }
+
+    .banner-title {
+        font-size: 2.5rem;
+    }
+
+    .banner-image-container {
+        width: 100%;
+        margin: 2rem 0;
+    }
+
+    .overlay {
+        position: absolute;
+        width: 35%;
+        margin: 10px auto;
+        padding: 10px 20px;
+        font-size: 0.9rem;
+        background: rgba(255, 255, 255, 0.15);
+        transform: none;
+    }
+
+    .overlay-left {
+        top: auto;
+        bottom: 20%;
+        left: 56%;
+        transform: translateX(-10%);
+    }
+
+    .overlay-right {
+        top: auto;
+        bottom: -10%;
+        left: 50%;
+        transform: translateX(-90%);
+    }
+
+    .overlay h4 {
+        font-size: 1.5rem;
+    }
+
+    .overlay p {
+        font-size: 15px;
+    }
+
+    /* Habits Section */
+    .habits{
+        max-width: 400px;
+    }
+
+    .habit-heading-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin: 0 auto;
+        width: 95%;
+        padding: 0 1rem;
+    }
+
+    .habit-heading {
+        display: flex;
+        justify-content: center;
+        font-size: 2rem;
+    }
+
+    .section-description {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    .habits-container {
+        flex-direction: column;
+        gap: 0.5rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .habit-item {
+        padding-bottom: 2rem;
+        text-align: center;
+    }
+
+    .circular-image {
+        position: absolute;
+        top: 4rem;
+        left: 16%;
+        width: 70%;
+        height: 70%;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+    
+    /* Additional changes for the `.run` section */
+    .run {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 1rem;
+        width: 85%;
+    }
+
+    .run-left-section {
+        max-width: 100%;
+        padding-right: 0;
+        text-align: left;
+        margin-bottom: 1rem;
+    }
+
+    .run-img-container {
+        max-width: 90%;
+        display: block;
+    }
+
+    .run-img {
+        border-radius: 18px;
+        width: 100%;
+        height: auto;
+        transform: none;
+    }
+    .run-btn-primary{
+        width: 100%;
+    }
+
+    /* BMI Section */
+    .bmi-calc{
+        width: 90%;
+    }
+
+    .bmi-section {
+        padding: 2rem 1rem;
+    }
+
+    .bmi-background.display-flex {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0 1rem; 
+    }
+
+
+    .bmi-chart {
+        margin-right: 0;
+        margin-bottom: 2rem;
+        width: 100%;
+    }
+
+    .bmi-calculator {
+        padding: 1rem;
+        max-width: 100%;
+    }
+
+    .bmi-form {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        width: 100%;
+    }
+
+    .bmi-form .form-group:nth-child(5),
+    .bmi-form button {
+        grid-column: span 1fr;
+    }
+
+    .bmi-button {
+        max-width: 60%;
+    }
+
+    /* QUIZZ */
+    select {
+        width: 100%;
+        box-sizing: border-box;
+        position: relative;
+        z-index: 1;
+    }
+    
+    .quiz-container {
+        overflow: visible;
+    }
+
+    .form-group {
+        overflow: visible;
+        position: relative;
+    }
+
+    dropdown-menu {
+        top: 100%;
+        left: 0;
+        transform: none;
+        position: absolute;
+    }
+    .quiz-container {
+        overflow: visible;
+        padding: 1.5rem;
+    }
+
+    .quiz-title {
+        font-size: 2rem;
+    }
+
+    .quiz-description {
+        font-size: 1rem;
+    }
+
+    .quiz-button {
+        width: 100%;
+        padding: 15px 20px;
+    }
+    /* Our Team Section */
+    .trainers {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 2rem 1rem;
+    }
+
+    .trainer-card {
+        height: auto;
+    }
+
+    .trainers .trainer-card:nth-last-child(3),
+    .trainers .trainer-card:nth-last-child(1) {
+        display: none;
+    }
+
+    /* Footer */
+    .footer-container {
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: center;
+    }
+
+    .footer-logo-section, .footer-links-section {
+        margin-right: 0;
+        margin-bottom: 2rem;
+    }
+
+    .footer-logo-section .brand-footer {
+        font-size: 2.5rem;
+    }
+
+    .footer-heading {
+        font-size: 1.5rem;
+    }
+}
